@@ -2,10 +2,14 @@ composer install / update
 
 copy/paste env.example
 
+// mysql database
+
 php artisan key:generate
 
 php artisan migrate
 php artisan db:seed
+
+php artisan serve
 
 db should be created / tables too / properties table should have 50 rows
 
